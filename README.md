@@ -1,5 +1,5 @@
 # CS6600-Computer-Architecture
-<p align="justify"> The repository holds the assignments done as a part of the graduate level course Computer Architecture during the Jul-Npv 2022 semester. The experimented 
+<p align="justify"> The repository holds the assignments done as a part of the graduate level course Computer Architecture during the Jul-Nov 2022 semester. The experimented 
 codes along with the brief description of the assignments has been presented. Several assignments relavant cache simulation using the cachegrind simulator, cache replacement, branch prediction
 and cache prefetching have been performed using the Champsim simulator. </p>
 
