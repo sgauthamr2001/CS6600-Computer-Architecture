@@ -1,0 +1,66 @@
+Performance counter stats for './a.out 250000':
+
+             54.42 msec task-clock                #    0.995 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               848      page-faults               #    0.016 M/sec                  
+      19,23,46,835      cycles                    #    3.535 GHz                    
+      36,17,22,907      instructions              #    1.88  insn per cycle         
+       4,46,75,385      branches                  #  820.940 M/sec                  
+         23,02,317      branch-misses             #    5.15% of all branches        
+
+       0.054667830 seconds time elapsed
+
+       0.054692000 seconds user
+       0.000000000 seconds sys
+
+Performance counter stats for './a.out 500000':
+
+            108.15 msec task-clock                #    0.998 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             1,792      page-faults               #    0.017 M/sec                  
+      40,07,39,440      cycles                    #    3.705 GHz                    
+      75,18,95,227      instructions              #    1.88  insn per cycle         
+       9,15,59,009      branches                  #  846.559 M/sec                  
+         48,22,830      branch-misses             #    5.27% of all branches        
+
+       0.108392433 seconds time elapsed
+
+       0.108417000 seconds user
+       0.000000000 seconds sys
+
+ Performance counter stats for './a.out 750000':
+
+            163.31 msec task-clock                #    0.999 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             2,769      page-faults               #    0.017 M/sec                  
+      61,67,35,924      cycles                    #    3.777 GHz                    
+    1,15,55,09,716      instructions              #    1.87  insn per cycle         
+      13,96,67,559      branches                  #  855.236 M/sec                  
+         74,04,604      branch-misses             #    5.30% of all branches        
+
+       0.163547036 seconds time elapsed
+
+       0.159574000 seconds user
+       0.003989000 seconds sys
+
+ Performance counter stats for './a.out 1000000':
+
+            225.03 msec task-clock                #    0.999 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             3,716      page-faults               #    0.017 M/sec                  
+      83,53,06,650      cycles                    #    3.712 GHz                    
+    1,56,06,99,559      instructions              #    1.87  insn per cycle         
+      18,75,79,979      branches                  #  833.571 M/sec                  
+       1,01,33,376      branch-misses             #    5.40% of all branches        
+
+       0.225301921 seconds time elapsed
+
+       0.225321000 seconds user
+       0.000000000 seconds sys
+
+
+

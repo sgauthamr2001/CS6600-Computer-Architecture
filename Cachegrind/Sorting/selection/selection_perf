@@ -1,0 +1,59 @@
+ Performance counter stats for './a.out 250000':
+
+         57,535.40 msec task-clock                #    1.000 CPUs utilized          
+               164      context-switches          #    0.003 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+               294      page-faults               #    0.005 K/sec                  
+ 2,16,66,25,99,686      cycles                    #    3.766 GHz                      (30.76%)
+ 5,62,69,88,17,812      instructions              #    2.60  insn per cycle           (38.45%)
+   62,54,58,06,482      branches                  # 1087.084 M/sec                    (38.46%)
+         36,05,540      branch-misses             #    0.01% of all branches          (38.47%)
+ 2,81,21,95,51,101      L1-dcache-loads           # 4887.765 M/sec                    (38.47%)
+    1,95,48,59,446      L1-dcache-load-misses     #    0.70% of all L1-dcache hits    (38.48%)
+       3,34,90,635      LLC-loads                 #    0.582 M/sec                    (30.78%)
+          3,50,734      LLC-load-misses           #    1.05% of all LL-cache hits     (30.78%)
+   <not supported>      L1-icache-loads                                             
+         71,75,081      L1-icache-load-misses                                         (30.77%)
+ 2,81,22,60,30,889      dTLB-loads                # 4887.878 M/sec                    (30.77%)
+            44,618      dTLB-load-misses          #    0.00% of all dTLB cache hits   (30.76%)
+          2,61,089      iTLB-loads                #    0.005 M/sec                    (30.76%)
+          1,70,544      iTLB-load-misses          #   65.32% of all iTLB cache hits   (30.76%)
+   <not supported>      L1-dcache-prefetches                                        
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+      57.538569467 seconds time elapsed
+
+      57.531967000 seconds user
+       0.003999000 seconds sys
+
+ Performance counter stats for './a.out 500000':
+
+       2,43,034.51 msec task-clock                #    1.000 CPUs utilized          
+               799      context-switches          #    0.003 K/sec                  
+                 8      cpu-migrations            #    0.000 K/sec                  
+               540      page-faults               #    0.002 K/sec                  
+ 8,70,67,46,84,343      cycles                    #    3.583 GHz                      (30.77%)
+22,50,60,13,60,661      instructions              #    2.58  insn per cycle           (38.46%)
+ 2,50,09,31,25,088      branches                  # 1029.044 M/sec                    (38.46%)
+         86,11,569      branch-misses             #    0.00% of all branches          (38.46%)
+11,25,60,42,30,519      L1-dcache-loads           # 4631.459 M/sec                    (38.46%)
+    7,83,46,22,463      L1-dcache-load-misses     #    0.70% of all L1-dcache hits    (38.46%)
+      14,75,98,886      LLC-loads                 #    0.607 M/sec                    (30.77%)
+         46,61,787      LLC-load-misses           #    3.16% of all LL-cache hits     (30.77%)
+   <not supported>      L1-icache-loads                                             
+       3,02,12,361      L1-icache-load-misses                                         (30.77%)
+11,24,67,08,50,926      dTLB-loads                # 4627.618 M/sec                    (30.77%)
+          5,78,618      dTLB-load-misses          #    0.00% of all dTLB cache hits   (30.77%)
+          4,07,058      iTLB-loads                #    0.002 M/sec                    (30.77%)
+          7,26,004      iTLB-load-misses          #  178.35% of all iTLB cache hits   (30.77%)
+   <not supported>      L1-dcache-prefetches                                        
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+     243.049822991 seconds time elapsed
+
+     243.035471000 seconds user
+       0.000000000 seconds sys
+
+
+
+
