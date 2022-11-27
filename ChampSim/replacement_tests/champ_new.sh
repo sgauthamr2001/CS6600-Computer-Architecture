@@ -1,0 +1,10 @@
+bin/champsim --warmup_instructions 200000000 --simulation_instructions 1000000000 Traces/lbm_94B.trace.xz > lbm_94B.txt
+bin/champsim --warmup_instructions 200000000 --simulation_instructions 1000000000 Traces/libquantum_964B.trace.xz > libquantum_964B.txt
+bin/champsim --warmup_instructions 200000000 --simulation_instructions 1000000000 Traces/astar_23B.trace.xz > astar_23B.txt
+bin/champsim --warmup_instructions 200000000 --simulation_instructions 1000000000 Traces/bwaves_98B.trace.xz > bwaves_98B.txt
+bin/champsim --warmup_instructions 200000000 --simulation_instructions 1000000000 Traces/bzip2_183B.trace.xz > bzip2_183B.txt
+bin/champsim --warmup_instructions 200000000 --simulation_instructions 1000000000 Traces/cactusADM_734B.trace.xz > cactusADM_734B.txt
+bin/champsim --warmup_instructions 200000000 --simulation_instructions 1000000000 Traces/calculix_2655B.trace.xz > calculix_2655B.txt
+bin/champsim --warmup_instructions 200000000 --simulation_instructions 1000000000 Traces/gcc_13B.trace.xz > gcc_13B.txt
+bin/champsim --warmup_instructions 200000000 --simulation_instructions 1000000000 Traces/GemsFDTD_109B.trace.xz > GemsFDTD_109B.txt
+bin/champsim --warmup_instructions 200000000 --simulation_instructions 1000000000 Traces/leslie3d_94B.trace.xz > leslie3d_94B.txt
